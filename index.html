@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -12,16 +13,18 @@
     <section id="largeur">
 
         <h1>Ivann Rambaud</h1>
-        <img src="./assets/images/photo.jpg" alt="picture">
-
+        <figure>
+            <a href="./assets/images/photo.jpg"><img id="pdp" src="./assets/images/photo.jpg" title="Ma photo" alt="voici ma photo">
+            </a>
+        </figure>
         <h2>Développeur web front</h2>
 
         <header>
             <div id="contact">
                 <section id="place">
-                    <h2><a href="#">55 Rue du Faubourg Saint-Honoré</a></h2> 
-                    <h2><a href="#">john.doe@gmail.com</a></h2>
-                    <h2><a href="#">0606060606</a></h2>
+                    <h2><a href="https://www.google.com/maps/@48.870636,2.3171122,3a,75y,245.32h,70.98t/data=!3m6!1e1!3m4!1sb_tC5Pd21qH0NMXHFDveLw!2e0!7i13312!8i6656?entry=ttu">55 Rue du Faubourg Saint-Honoré</a></h2> 
+                    <h2><a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a></h2>
+                    <h2><a href="tel:0606060606">0606060606</a></h2>
                 </section>
                 
             </div>
@@ -32,8 +35,8 @@
         <section id="corps">
             <div id="presentation">
                 <h3>A propos de moi</h3>
-                <p>Je m'appelle Ivann Rambaud, j'ai 17 ans et j'étudie le developpement web full stack au centre européen de formation.
-                    J'aime écouter de la musique quand je travaille, j'aime le calme de la campagne où j'habite.
+                <p id="indentation">Je m'appelle Ivann Rambaud, j'ai 17 ans et j'étudie le developpement web full stack au centre européen de formation.
+                    J'aime écouter de la musique quand je travaille et j'aime le calme de la campagne où j'habite.
 
                 </p>
 
@@ -41,10 +44,9 @@
                 <ul>
                     <li>Anglais-intermédiaire</li>
                     <li>Français-langue maternelle</li>
-                    <li>Russe-débutant</li>
                 </ul>
 
-                <p>centre d'interet</p>
+                <h3>Centre d'interet</h3>
                 <ul>
                     <li>Basketball</li>
                     <li>Handball</li>
@@ -61,7 +63,7 @@
                             <li>Stage à Orange-Angers</li>
                         </ul>
 
-                        <var>En 3<supp>ème</supp></var> <br> <br>
+                        <p>En 3ème</p> 
                         <small>Durée: 1 semaine</small>
 
                         <ul>
@@ -107,10 +109,20 @@
 
         <!--création d'un footer pour les réseaux afin qu'ils soient positionnez en bas de la page et bien differencier du reste-->
         <footer>
-            <p>Lien vers les réseaux</p>
+            <p>Lien vers les réseaux :</p>
+            <a href="https://www.facebook.com/ivann.rambaud"><img id="facebook" src="./assets/images/facebook.png" title="Mon Facebook" alt="Voici un lien vers mon Facebook"></a>
+            <a href="https://www.linkedin.com/in/ivann-rambaud-864176247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img id="linkedin" src="./assets/images/linkedin.png" title="Mon Linkedin" alt="Voici mon lien vers mon linkedin"></a>
+            <a href="https://github.com/Ivann212/Mon-CV"><img id="github" src="./assets/images/github.png" title="Mon github" alt="Voici le lien vers mon repository github"></a>
         </footer>
         
-    </section>   
+    </section>  
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="CSS Valide !" />
+        </a>
+    </p> 
 
 </body>
 </html>
