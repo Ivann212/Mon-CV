@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -11,20 +12,22 @@
     <!--section id largeur pour determiner la largeur du cv-->
     <section id="largeur">
 
-        <h1 id="title">Ivann Rambaud</h1>
-        <img src="./assets/images/photo.jpg" >
-
-        <h2 id="title">Développeur web front</h2>
+        <h1>Ivann Rambaud</h1>
+        <figure>
+            <a href="./assets/images/photo.jpg"><img id="pdp" src="./assets/images/photo.jpg" title="Ma photo" alt="voici ma photo">
+            </a>
+        </figure>
+        <h2>Développeur web front</h2>
 
         <header>
-            <section id="contact">
+            <div id="contact">
                 <section id="place">
-                    <p><a href="#"></a></p> 
-                    <p><a href="#"></a></p>
-                    <p><a href="#"></a></p>
+                    <h2><a href="https://www.google.com/maps/@48.870636,2.3171122,3a,75y,245.32h,70.98t/data=!3m6!1e1!3m4!1sb_tC5Pd21qH0NMXHFDveLw!2e0!7i13312!8i6656?entry=ttu">55 Rue du Faubourg Saint-Honoré</a></h2> 
+                    <h2><a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a></h2>
+                    <h2><a href="tel:0606060606">0606060606</a></h2>
                 </section>
                 
-            </section>
+            </div>
 
         </header>
 
@@ -32,7 +35,8 @@
         <section id="corps">
             <div id="presentation">
                 <h3>A propos de moi</h3>
-                <p>Je m'appelle Ivann Rambaud, j'ai 17 ans et j'étudie le developpement web full stack.
+                <p id="indentation">Je m'appelle Ivann Rambaud, j'ai 17 ans et j'étudie le developpement web full stack au centre européen de formation.
+                    J'aime écouter de la musique quand je travaille et j'aime le calme de la campagne où j'habite.
 
                 </p>
 
@@ -40,10 +44,9 @@
                 <ul>
                     <li>Anglais-intermédiaire</li>
                     <li>Français-langue maternelle</li>
-                    <li>Russe-débutant</li>
                 </ul>
 
-                <p>centre d'interet</p>
+                <h3>Centre d'interet</h3>
                 <ul>
                     <li>Basketball</li>
                     <li>Handball</li>
@@ -54,22 +57,72 @@
             </div>
 
             <div id="Professionel">
+                
+                    <h4>Experience professionelles</h4>
+                        <ul>
+                            <li>Stage à Orange-Angers</li>
+                        </ul>
 
-                <p>liste expériences professionelles</p>
+                        <p>En 3ème</p> 
+                        <small>Durée: 1 semaine</small>
 
-                <p>Liste diplômes et formation suivie</p>
-        
-                <p>Les compétences</p>
+                        <ul>
+                                <li>Stage à Addix informatique</li>
+                        </ul>
+
+                        <p>En première</p>
+                        <small>Durée: 1 semaine</small>
+
+                        <ul>
+                                <li>Renfort été en Ehpad</li>
+                        </ul>
+
+                        <p>été 2023</p>
+                        <small>Durée: 2 mois</small>
+            
+                    <h4>Liste diplômes et formation suivie</h4>
+                        <ul>
+                            <li>Brevet des collège</li>
+                        </ul>
+                            <small>Obtenu en 2020</small>
+                        <ul>
+                            <li>Bac STI2D</li>
+                        </ul>
+                            <small>Obtenu en 2023</small>
+                        <ul>
+                            <li>Formation développeur full stack</li>
+                        </ul>
+                            <small>Actuellement</small>
+                        
+                    
+                    <h4>Mes compétences</h4>
+                        <ul>
+                            <li>HTML 5- Intermédiaire</li>
+                            <li>CSS 3- Intermédiaire</li>
+                            <li>git et github- débutant</li>
+                            <li>Hardware</li>
+
+                        </ul>
 
             </div>
         </section>
 
         <!--création d'un footer pour les réseaux afin qu'ils soient positionnez en bas de la page et bien differencier du reste-->
         <footer>
-            <p>Lien vers les réseaux</p>
+            <p>Lien vers les réseaux :</p>
+            <a href="https://www.facebook.com/ivann.rambaud"><img id="facebook" src="./assets/images/facebook.png" title="Mon Facebook" alt="Voici un lien vers mon Facebook"></a>
+            <a href="https://www.linkedin.com/in/ivann-rambaud-864176247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img id="linkedin" src="./assets/images/linkedin.png" title="Mon Linkedin" alt="Voici mon lien vers mon linkedin"></a>
+            <a href="https://github.com/Ivann212/Mon-CV"><img id="github" src="./assets/images/github.png" title="Mon github" alt="Voici le lien vers mon repository github"></a>
         </footer>
         
-    </section>   
+    </section>  
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="CSS Valide !" />
+        </a>
+    </p> 
 
 </body>
 </html>
