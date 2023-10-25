@@ -2,3 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
 /*Raleway pour le contenu*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+#p1{
+    text-align: center;
+}
